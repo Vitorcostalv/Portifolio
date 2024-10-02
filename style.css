@@ -181,7 +181,7 @@ header nav ul li a:hover {
     margin-left: -75px;
     z-index: 1;
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.3;
 }
 
 .language-icon:hover span {
