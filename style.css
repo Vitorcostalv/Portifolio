@@ -1,0 +1,111 @@
+/* Variáveis convertidas em cores diretas */
+:root {
+    --primary-color: #00ffaa;
+    --background-color: #1e1e2e;
+    --text-color: #ffffff;
+    --link-color: #00ffaa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1b1b28; /* escurece o fundo um pouco */
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: var(--link-color);
+}
+
+.resume-btn {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.resume-btn:hover {
+    background-color: #1be6a6; /* cor mais clara ao passar o mouse */
+}
+
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+#hero h1 span {
+    color: #30ffbd; /* cor clara */
+}
+
+#hero p {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7); /* texto mais claro */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons a img {
+    width: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #181824; /* escurece o fundo do rodapé */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.4); /* texto mais claro no rodapé */
+}
